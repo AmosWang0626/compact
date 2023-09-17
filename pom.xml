@@ -3,11 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.amos</groupId>
-    <artifactId>think</artifactId>
+    <groupId>cn.eyeo</groupId>
+    <artifactId>compact</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>think</name>
+    <name>compact</name>
 
     <properties>
         <!--<skipTests>true</skipTests>-->
@@ -22,12 +22,12 @@
     </properties>
 
     <modules>
-        <module>think-app</module>
-        <module>think-client</module>
-        <module>think-adapter</module>
-        <module>think-domain</module>
-        <module>think-infrastructure</module>
-        <module>think-start</module>
+        <module>compact-app</module>
+        <module>compact-client</module>
+        <module>compact-adapter</module>
+        <module>compact-domain</module>
+        <module>compact-infrastructure</module>
+        <module>compact-start</module>
     </modules>
 
     <dependencyManagement>
@@ -57,28 +57,28 @@
 
             <!--Project modules-->
             <dependency>
-                <groupId>com.amos</groupId>
-                <artifactId>think-adapter</artifactId>
+                <groupId>cn.eyeo</groupId>
+                <artifactId>compact-adapter</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>com.amos</groupId>
-                <artifactId>think-client</artifactId>
+                <groupId>cn.eyeo</groupId>
+                <artifactId>compact-client</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>com.amos</groupId>
-                <artifactId>think-app</artifactId>
+                <groupId>cn.eyeo</groupId>
+                <artifactId>compact-app</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>com.amos</groupId>
-                <artifactId>think-domain</artifactId>
+                <groupId>cn.eyeo</groupId>
+                <artifactId>compact-domain</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>com.amos</groupId>
-                <artifactId>think-infrastructure</artifactId>
+                <groupId>cn.eyeo</groupId>
+                <artifactId>compact-infrastructure</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <!--Project modules End-->
