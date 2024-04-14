@@ -5,3 +5,7 @@
 ## Sentinel
 
 ## SkyWalking
+
+```shell
+java -javaagent:/Users/amoswang/Workspace/app_res/skywalking-agent/skywalking-agent.jar -Dskywalking.agent.service_name=compact -jar compact-start.jar
+```
