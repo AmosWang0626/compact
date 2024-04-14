@@ -136,6 +136,12 @@
                 <scope>test</scope>
             </dependency>
             <!-- Misc End -->
+            <!-- Redis -->
+            <dependency>
+                <groupId>com.redis</groupId>
+                <artifactId>spring-lettucemod</artifactId>
+                <version>3.8.0</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
